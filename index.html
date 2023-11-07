@@ -1,0 +1,87 @@
+Today's Implementation:: <!doctype html>
+<html>
+
+<head>
+    <style>
+        input[type="text"],
+        input[type="password"],
+        input[type="email"]{
+            width:50%;
+            padding:5px;
+            margin:5px;
+        }
+
+        input[type="password"]:focus{
+            background-color: aqua;
+            color:darkred;
+        }
+
+        input[type="email"]:hover{
+            background-color: darkred;
+            color:aliceblue;
+        }
+    </style>
+</head>
+    <body>
+        <form>
+
+        <h1> HTML Input Types</h1>
+
+        <label>Enter Firstname::</label>
+        <input type="text" required> <br><br>
+
+        <label>Enter Password::</label>
+        <input type="password"> <br><br>
+
+        <label>Enter Email::</label>
+        <input type="email"> <br><br>
+
+        <label>Enter Your Favorite Color::</label>
+        <input type="color"> <br><br>
+
+        <label>Enter Your DOB::</label>
+        <input type="date"> <br><br>
+
+        <label>Enter Your DOB with Time::</label>
+        <input type="datetime-local"> <br><br>
+
+        <label>Enter Your Month::</label>
+        <input type="month"> <br><br>
+
+        <label>Enter Your Week::</label>
+        <input type="week"> <br><br>
+
+        <label>Enter Your Time of Login::</label>
+        <input type="time"> <br><br>
+
+        <label>Enter Number::</label>
+        <input type="number" min="2" max="5"> <br><br>
+
+        <label>Enter Range</label>
+        <input type="range"> <br><br>
+
+        <label>Enter File to be Uploaded::</label>
+        <input type="file"> <br><br>
+
+        <label>Enter Files to be Uploaded::</label>
+        <input type="file" multiple> <br><br>
+
+        <label>Enter Phone number::</label>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br><br>
+
+        <label>Enter Qualification::</label>
+        <select>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>MCA</option>
+            <option selected>MBA</option>
+        </select>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+
+
+    </body>
+</html>
